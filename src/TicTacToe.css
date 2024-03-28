@@ -1,0 +1,32 @@
+.board {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  border: 2px white solid;
+  border-collapse: collapse;
+}
+
+.message {
+  font-size: 30px;
+}
+
+.resetButton {
+  border: 2px solid white;
+  width: 33%;
+  margin-right: 20px;
+}
+
+.buttonAndMessage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
